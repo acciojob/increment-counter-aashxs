@@ -1,12 +1,12 @@
 //your JS code here. If required.
-let btn=document.querySelector("#btn");
-let inc=document.querySelector("#inc");
-let i=1;
+let btn=document.querySelector("#incrementBtn");
+let inc=document.querySelector("#counter");
+let i=0;
 btn.addEventListener("click",()=>{
     
-    inc.innerHTML=i;
-   alert(i);
-    i++;
     
+    alert(i);
+    i++;
+      inc.innerHTML=i;
 
 })
